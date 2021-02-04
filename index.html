@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Dice Game | 2 Players</title>
+</head>
+<body>
+    <header>
+        <h1>Dice Game | 2 Players</h1>
+        <h2>Click New Game to Begin</h2>
+        <p>First player, roll the dice, if it is a 1, your score resets, if it is anything else, you can add to your score and roll again! Or you can hold your score and let the other player roll!</p>
+    </header>
 
+    <section id="gameDisplay">
+        
+        <div id="player1">
+            <h2 id="player1Name">Player 1</h2>
+            <div id="currentScore">
+                <h3>Score</h3>
+                <h3 id="player1Score">0</h3>
+            </div>
+        </div>
+
+        <div id="player2">
+            <h2 id="player2Name">Player 2</h2>
+            <div id="currentScore">
+                <h3>Score</h3>
+                <h3 id="player2Score">0</h3>
+            </div>
+        </div>
+
+        <div id="roll">
+            <h1>Dice Roll</h1>
+            <h2 id="diceRollScore"></h2>
+        </div>
+
+        <div id="controls">
+            <button id="newGame">New Game</button>
+            <button id="rollDice">Roll Dice</button>
+            <button id="hold">Hold</button>
+        </div>
+
+        <div id="result">
+            <h2 id="whoWins">Let's Play!  Player 1, you start!</h2>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Hope you enjoyed the Dice Game!</p>
+        <p>Built by <a href="https://github.com/evanmorrisdev">Evan Morris</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
