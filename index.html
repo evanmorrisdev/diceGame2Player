@@ -11,43 +11,42 @@
         <h1>Dice Game | 2 Players</h1>
         <h2>Click New Game to Begin</h2>
         <p>First player, roll the dice, if it is a 1, your score resets, if it is anything else, you can add to your score and roll again! Or you can hold your score and let the other player roll!</p>
+        <p>First to pass 20 wins!</p>
     </header>
-
-    <section id="gameDisplay">
-        
-        <div id="player1">
-            <h2 id="player1Name">Player 1</h2>
-            <div id="currentScore">
-                <h3>Score</h3>
-                <h3 id="player1Score">0</h3>
-            </div>
-        </div>
-
-        <div id="player2">
-            <h2 id="player2Name">Player 2</h2>
-            <div id="currentScore">
-                <h3>Score</h3>
-                <h3 id="player2Score">0</h3>
-            </div>
-        </div>
-
-        <div id="roll">
-            <h1>Dice Roll</h1>
-            <h2 id="diceRollScore"></h2>
-        </div>
-
-        <div id="controls">
+    <div id="gameGrid">
+        <section id="newGameButton">
             <button id="newGame">New Game</button>
-            <button id="rollDice">Roll Dice</button>
-            <button id="hold">Hold</button>
-        </div>
-
-        <div id="result">
             <h2 id="whoWins">Let's Play!  Player 1, you start!</h2>
-        </div>
+        </section>
 
-    </section>
+        <section id="gameDisplay">
+            <div id="player1">
+                <h2 id="player1Name">Player 1</h2>
+                <div id="currentScore">
+                    <h3 id="player1Score">0</h3>
+                </div>
+            </div>
 
+            <div id="player2">
+                <h2 id="player2Name">Player 2</h2>
+                <div id="currentScore">
+                    <h3 id="player2Score">0</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="controlPanel">
+            <div id="controls">
+                <button id="rollDice">Roll Dice</button>
+                <button id="hold">Hold</button>
+            </div>
+
+            <div id="roll">
+                <h1>Dice Roll</h1>
+                <h2 id="diceRollScore">_</h2>
+            </div>
+        </section>
+    </div>
     <footer>
         <p>Hope you enjoyed the Dice Game!</p>
         <p>Built by <a href="https://github.com/evanmorrisdev">Evan Morris</a></p>

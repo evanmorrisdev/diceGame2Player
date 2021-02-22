@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: navy;
+    background-image: linear-gradient(to right, orange, red);
+    color: black;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#newGameButton {
+    text-align: center;
+}
+
+#gameDisplay {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    width: 50%;
+    padding: 0 25%;
+}
+
+#player1 {
+    text-align: center;
+}
+
+#player2 {
+    text-align: center;
+}
+
+#controlPanel {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
