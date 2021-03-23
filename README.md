@@ -8,6 +8,3 @@
 
 ## Clone the Repo
 * If you would like to clone and use this code, please go to https://github.com/evanmorrisdev/diceGame2Player
-
-### Visitor Count
-![Visitor Count!](https://profile-counter.glitch.me/evanmorrisdev/diceGame2Player/count.svg)
